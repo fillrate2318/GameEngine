@@ -1,7 +1,8 @@
-#include "Engine.h"
+#include <Engine/Application.h>
 
 int main() {
-    Engine::Hello();
+    Application app;
+    app.Run();
 
     return 0;
 }

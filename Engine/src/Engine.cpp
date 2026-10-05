@@ -1,8 +1,2 @@
-#include "Engine.h"
-#include <iostream>
+#include <Engine/Engine.h>
 
-namespace Engine {
-    void Hello() {
-        std::cout << "Hello from Engine!" << std::endl;
-    }
-}
