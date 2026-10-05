@@ -3,4 +3,6 @@ project(GameEngine)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(GameEngine main.cpp)
+add_subdirectory(Engine)
+add_subdirectory(Sandbox)
+
